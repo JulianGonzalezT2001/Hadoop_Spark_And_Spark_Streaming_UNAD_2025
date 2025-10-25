@@ -158,6 +158,7 @@ Estamos listos para poner a prueba nuestro productor(producer) de Kafka.
 ```bash
 python3 kafka_producer.py
 ```
+
 y en otra terminal, podremos ejecutar nuestro consumidor(consumer) con Spark Streaming
 ```bash
 spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.3 spark_streaming_consumer.py
